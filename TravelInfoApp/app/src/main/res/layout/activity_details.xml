@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/cityImage"
+            android:layout_width="220dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/cityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#9C6600"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/cityInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City Info"
+            android:textSize="16sp"
+            android:textColor="#222"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Attractions:"
+            android:textStyle="bold"
+            android:textColor="#0077B6"
+            android:textSize="17sp"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/attractions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Attraction 1\n• Attraction 2\n• Attraction 3"
+            android:textSize="15sp"
+            android:textColor="#222"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Time to Visit:"
+            android:textStyle="bold"
+            android:textColor="#0077B6"
+            android:textSize="17sp"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/bestTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="March to May"
+            android:textSize="15sp"
+            android:textColor="#222"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Famous Food:"
+            android:textStyle="bold"
+            android:textColor="#0077B6"
+            android:textSize="17sp"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/famousFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baguette"
+            android:textSize="15sp"
+            android:textColor="#222"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/tipBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Travel Tip"
+            android:layout_marginBottom="26dp"
+            android:backgroundTint="#0077B6"
+            android:textColor="#FFF"/>
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"/>
+    </LinearLayout>
+</ScrollView>
